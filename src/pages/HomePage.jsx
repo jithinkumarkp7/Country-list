@@ -12,8 +12,6 @@ const HomePage = () => {
   const { visible, filter } = useSelector((state) => state.countries);
 
   useEffect(() => {
-    console.log({ jithuji: data });
-
     if (data?.length) {
       dispatch(setAllCountries(data));
     }
