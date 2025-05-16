@@ -81,7 +81,7 @@ const LoginPage = () => {
         </Col>
         <Col xs={12} md={6} className="d-flex align-items-center justify-content-center p-4 bg-light">
           <img
-            src="src/assets/login.png"
+            src="public/login.png"
             alt="Login Visual"
             className="img-fluid d-none d-md-block"
             style={{ maxHeight: '400px', objectFit: 'contain' }}
